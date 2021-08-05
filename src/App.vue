@@ -1,9 +1,11 @@
 <template>
   <div id="app">
-    <Navbar />
-    <div>
-      <router-view></router-view>
-    </div>
+    <v-app>
+      <Navbar/>
+      <v-main>
+        <router-view></router-view>
+      </v-main>
+    </v-app>
   </div>
 </template>
 
@@ -19,5 +21,4 @@ export default {
 </script>
 
 <style lang="scss">
-
 </style>

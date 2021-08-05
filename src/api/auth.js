@@ -1,3 +1,3 @@
-export default  function (instance) {
-  
+export default function (instance) {
+
 }
